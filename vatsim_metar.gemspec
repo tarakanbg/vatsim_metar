@@ -4,9 +4,9 @@ require File.expand_path('../lib/vatsim_metar/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Svilen Vassilev"]
   gem.email         = ["svilen@rubystudio.net"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Pulls and returns as a sring the latest VATSIM metar for a particular station (ICAO code).}
+  gem.summary       = %q{Pulls the latest VATSIM metar for particular station}
+  gem.homepage      = "https://github.com/tarakanbg/vatsim_metar"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

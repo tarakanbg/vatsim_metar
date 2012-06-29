@@ -1,4 +1,5 @@
 require "vatsim_metar/version"
+require 'curb'
 
 class String
   def metar
@@ -7,11 +8,8 @@ class String
 end
 
 module VatsimMetar
-  def self.metar(input)
-    "moo"
+  def self.metar(icao)
+    metar = Curl::Easy.perform("http://metar.vatsim.net/#{icao}").body_str
   end
-
-private
-
 
 end

@@ -1,5 +1,4 @@
 require 'spec_helper.rb'
-require 'curb'
 
 describe String do
 
@@ -11,11 +10,6 @@ describe String do
   end
 
   describe ".metar" do
-
-    it "should return result" do
-      input = "egll"
-      input.metar.should eq("moo")
-    end
 
     it "should use curl" do
       icao = "egll"
@@ -41,6 +35,12 @@ describe String do
       metar = Curl::Easy.perform("http://metar.vatsim.net/#{icao}")
       metar = metar.body_str
       metar[0..3].should eq("KJFK")
+    end
+
+    it "should return valid result" do
+      input = "egll"
+      input.metar[0..3].should eq("EGLL")
+      "kjfk".metar[0..3].should eq("KJFK")
     end
 
   end
