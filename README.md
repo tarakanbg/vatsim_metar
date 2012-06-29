@@ -1,4 +1,4 @@
-# VatsimMetar
+# Vatsim Metar [![Build Status](https://secure.travis-ci.org/tarakanbg/vatsim_metar.png)](http://travis-ci.org/tarakanbg/vatsim_metar)
 
 A Ruby gem which pulls and displays the latest VATSIM metar for a particular station (ICAO code).
 
