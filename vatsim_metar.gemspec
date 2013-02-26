@@ -4,7 +4,7 @@ require File.expand_path('../lib/vatsim_metar/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Svilen Vassilev"]
   gem.email         = ["svilen@rubystudio.net"]
-  gem.description   = %q{Pulls and returns as a sring the latest VATSIM metar for a particular station (ICAO code).}
+  gem.description   = %q{Pulls and returns as a string the latest VATSIM metar for a particular station (ICAO code).}
   gem.summary       = %q{Pulls the latest VATSIM metar for particular station}
   gem.homepage      = "https://github.com/tarakanbg/vatsim_metar"
 
@@ -17,5 +17,5 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "rake"
-  gem.add_dependency "curb"
+  gem.add_dependency "curb", "~> 0.8.3"
 end
