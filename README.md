@@ -7,6 +7,10 @@ A Ruby gem which pulls and displays the latest VATSIM metar for a particular sta
 [![Gem Version](https://badge.fury.io/rb/vatsim_metar.png)](http://badge.fury.io/rb/vatsim_metar)
 [![Code Climate](https://codeclimate.com/github/tarakanbg/vatsim_metar.png)](https://codeclimate.com/github/tarakanbg/vatsim_metar)
 
+## Compatibility
+
+[Ruby 1.9.3](http://www.ruby-lang.org/en/downloads/) or higher | **Supports Ruby 2.0!**
+
 ## Installation
 
 Add this line to your application's Gemfile:
