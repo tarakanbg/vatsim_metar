@@ -17,5 +17,5 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "rake"
-  gem.add_dependency "curb", "~> 0.8.3"
+  gem.add_dependency "curb", "~> 0.8.4"
 end
