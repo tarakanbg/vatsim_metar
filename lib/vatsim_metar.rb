@@ -12,7 +12,9 @@ module VatsimMetar
     # metar = Curl::Easy.perform("http://metar.vatsim.net/#{icao}").body_str
     c = Curl::Easy.new("http://metar.vatsim.net/#{icao}")
     c.timeout = 5
-    metar = c.perform.body_str
+    c.perform
+    metar = c.body_str
+    metar = "No valid METAR" if metar.include? "html"
   rescue Curl::Err::TimeoutError
     metar = "METAR timeout"    
   end
