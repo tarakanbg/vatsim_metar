@@ -15,6 +15,7 @@ module VatsimMetar
     c.perform
     metar = c.body_str
     metar = "No valid METAR" if metar.include? "html"
+    metar
   rescue Curl::Err::TimeoutError
     metar = "METAR timeout"    
   rescue Curl::Err::ConnectionFailedError

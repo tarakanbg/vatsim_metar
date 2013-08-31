@@ -50,7 +50,7 @@ This library augments the default Ruby `String` class with a method named `.meta
 
 ## Changelog
 
-### v. 0.2.1 - 23 August 2013
+### v. 0.2.2 - 31 August 2013
 
 * added timeout limit
 * added connection failure rescue
