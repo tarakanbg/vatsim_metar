@@ -17,9 +17,8 @@ module VatsimMetar
     metar = "No valid METAR" if metar.include? "html"
     metar
   rescue Curl::Err::TimeoutError
-    metar = "METAR timeout"    
+    metar = "METAR timeout"
   rescue Curl::Err::ConnectionFailedError
-    metar = "METAR timeout"    
+    metar = "METAR timeout"
   end
-
 end
