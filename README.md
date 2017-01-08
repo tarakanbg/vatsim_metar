@@ -81,6 +81,7 @@ Copyright © 2017 [Svilen Vassilev](http://svilen.rubystudio.net)
 *If you find my work useful or time-saving, you can buy me a cup of coffee:*
 
 Bitcoin: `1FtY5KnFcC7QDQCNwoXErQCtx8z9hdTWcD`
+
 Dogecoin: `DE9Tb4ge4YM7rAFFwKNAQo2mEUfiEC9xRQ`
 
 Released under the [MIT LICENSE](https://github.com/tarakanbg/vatsim_metar/blob/master/LICENSE)

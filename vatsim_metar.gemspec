@@ -14,8 +14,9 @@ Gem::Specification.new do |gem|
   gem.name          = "vatsim_metar"
   gem.require_paths = ["lib"]
   gem.version       = VatsimMetar::VERSION
+  gem.license       = 'MIT'
 
-  gem.add_development_dependency "rspec"
-  gem.add_development_dependency "rake"
-  gem.add_dependency "curb"
+  gem.add_development_dependency "rspec", '~> 0'
+  gem.add_development_dependency "rake", '~> 0'
+  gem.add_dependency "curb", '~> 0'
 end
