@@ -1,4 +1,4 @@
-# Vatsim Metar 
+# Vatsim Metar
 
 A Ruby gem which pulls and displays the latest VATSIM metar for a particular station (ICAO code).
 
@@ -9,7 +9,7 @@ A Ruby gem which pulls and displays the latest VATSIM metar for a particular sta
 
 ## Compatibility
 
-[Ruby 1.9.3](http://www.ruby-lang.org/en/downloads/) or higher | **Supports Ruby 2.0!**
+[Ruby 2.0](http://www.ruby-lang.org/en/downloads/) or higher
 
 ## Installation
 
@@ -50,6 +50,10 @@ This library augments the default Ruby `String` class with a method named `.meta
 
 ## Changelog
 
+### v. 0.2.4 - 8 January 2017
+
+* dependcies update
+
 ### v. 0.2.2 - 31 August 2013
 
 * added timeout limit
@@ -72,11 +76,11 @@ This library augments the default Ruby `String` class with a method named `.meta
 
 ## Credits
 
-Copyright © 2013 [Svilen Vassilev](http://svilen.rubystudio.net)
+Copyright © 2017 [Svilen Vassilev](http://svilen.rubystudio.net)
 
-*If you find my work useful or time-saving, you can endorse it or buy me a cup of coffee:*
+*If you find my work useful or time-saving, you can buy me a cup of coffee:*
 
-[![endorse](http://api.coderwall.com/svilenv/endorsecount.png)](http://coderwall.com/svilenv)
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5FR7AQA4PLD8A)
+Bitcoin: `1FtY5KnFcC7QDQCNwoXErQCtx8z9hdTWcD`
+Dogecoin: `DE9Tb4ge4YM7rAFFwKNAQo2mEUfiEC9xRQ`
 
 Released under the [MIT LICENSE](https://github.com/tarakanbg/vatsim_metar/blob/master/LICENSE)
