@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.version       = VatsimMetar::VERSION
   gem.license       = 'MIT'
 
-  gem.add_development_dependency "rspec", '~> 0'
-  gem.add_development_dependency "rake", '~> 0'
-  gem.add_dependency "curb", '~> 0'
+  gem.add_development_dependency "rspec"
+  gem.add_development_dependency "rake"
+  gem.add_dependency "curb"
 end
